@@ -1,288 +1,109 @@
-\# 🚨 Emergency Contact Directory
-
-
-
-A full-stack web application to store and manage emergency contacts safely and accessibly.
-
-
-
-!\[Emergency Contact Directory](https://img.shields.io/badge/Status-Live-brightgreen)
-
-!\[GitHub Pages](https://img.shields.io/badge/Frontend-GitHub%20Pages-blue)
-
-!\[Render](https://img.shields.io/badge/Backend-Render-purple)
-
-!\[Node.js](https://img.shields.io/badge/Node.js-v24-green)
-
-!\[Express](https://img.shields.io/badge/Express-v4.18-lightgrey)
-
-
-
-\---
-
-
-
-\## 🌍 Live Demo
-
-
-
-| Part | URL |
-
-|------|-----|
-
-| 🌐 Frontend | \[Emergency Contact Directory](https://nareshkumarpunganoor-crypto.github.io/Emergency-Contact-Directory/) |
-
-| ⚙️ Backend API | \[API Server](https://emergency-contact-naresh.onrender.com) |
-
-| 📦 API Contacts | \[View Contacts](https://emergency-contact-naresh.onrender.com/api/contacts) |
-
-
-
-\---
-
-
-
-\## 📸 Features
-
-
-
-\- ✅ Add emergency contacts
-
-\- ✅ Edit existing contacts
-
-\- ✅ Delete contacts
-
-\- ✅ Search by name or phone number
-
-\- ✅ Filter by category and priority
-
-\- ✅ Priority badges (High 🔴, Medium 🟡, Low 🟢)
-
-\- ✅ Category icons (Family, Doctor, Police, etc.)
-
-\- ✅ Click-to-call phone links
-
-\- ✅ Delete confirmation modal
-
-\- ✅ Success and error notifications
-
-\- ✅ Fully responsive design (Mobile friendly)
-
-
-
-\---
-
-
-
-\## 🛠️ Tech Stack
-
-
-
-\### Frontend
-
-| Technology | Usage |
-
-|------------|-------|
-
-| HTML5 | Structure |
-
-| CSS3 | Styling \& Animations |
-
-| JavaScript | Logic \& API calls |
-
-| GitHub Pages | Hosting |
-
-
-
-\### Backend
-
-| Technology | Usage |
-
-|------------|-------|
-
-| Node.js | Runtime |
-
-| Express.js | Web Framework |
-
-| JSON File | Database |
-
-| CORS | Cross Origin Requests |
-
-| Nodemon | Development Server |
-
-| Render.com | Hosting |
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
-&#x20;Emergency-Contact-Directory/
-
-│
-
-├── backend/
-
-│ ├── server.js
-
-│ ├── package.json
-
-│ ├── data/
-
-│ │ └── contacts.json
-
-│ └── routes/
-
-│ └── contacts.js
-
-│
-
-├── frontend/
-
-│ ├── index.html
-
-│ ├── style.css
-
-│ └── script.js
-
-│
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
-├── .gitignore
-
-└── README.md
-
-
-
-
-
-\---
-
-
-
-\## 🚀 API Endpoints
-
-
-
-| Method | Endpoint | Description |
-
-|--------|----------|-------------|
-
-| GET | `/api/contacts` | Get all contacts |
-
-| GET | `/api/contacts/:id` | Get single contact |
-
-| POST | `/api/contacts` | Create new contact |
-
-| PUT | `/api/contacts/:id` | Update a contact |
-
-| DELETE | `/api/contacts/:id` | Delete a contact |
-
-
-
-\---
-
-
-
-\## 🔍 API Query Parameters
-
-
-
-| Parameter | Example | Description |
-
-|-----------|---------|-------------|
-
-| search | `?search=john` | Search by name or phone |
-
-| relationship | `?relationship=Doctor` | Filter by category |
-
-| priority | `?priority=High` | Filter by priority |
-
-
-
-\---
-
-
-
-\## 📞 Contact Categories
-
-
-
-| Icon | Category |
-
-|------|----------|
-
-| 👨‍👩‍👧‍👦 | Family |
-
-| 🤝 | Friend |
-
-| 🏥 | Doctor |
-
-| 👮 | Police |
-
-| 🚒 | Fire Department |
-
-| 🚑 | Ambulance |
-
-| 🏠 | Neighbor |
-
-| 💼 | Workplace |
-
-| 📋 | Other |
-
-
-
-\---
-
-
-
-\## 🎯 Priority Levels
-
-
-
-| Priority | Color | Usage |
-
-|----------|-------|-------|
-
-| High | 🔴 Red | Most important contacts |
-
-| Medium | 🟡 Yellow | Regular contacts |
-
-| Low | 🟢 Green | Less urgent contacts |
-
-
-
-\---
-
-
-
-\## ⚙️ Run Locally
-
-
-
-\### Prerequisites
-
-\- Node.js installed
-
-\- Git installed
-
-
-
-\### Clone Repository
-
-
+# 🚨 Emergency Contact Directory
+
+A simple and user-friendly web application that helps users securely store, manage, and quickly access important emergency contact information. This project is designed to provide fast access to essential contacts during emergencies while offering an intuitive interface for adding, updating, searching, and deleting contact details.
+
+## 📌 Features
+
+* ➕ Add new emergency contacts
+* ✏️ Edit existing contact information
+* 🗑️ Delete contacts
+* 🔍 Search contacts by name
+* 📋 View all saved contacts
+* 📱 Responsive and easy-to-use interface
+* 💾 Secure data storage
+
+## 🛠️ Technologies Used
+
+* Python
+* Flask
+* HTML5
+* CSS3
+* JavaScript
+* SQLite (or your database)
+* Bootstrap (if used)
+
+## 📂 Project Structure
+
+```
+Emergency-Contact-Directory/
+│── app.py
+│── requirements.txt
+│── static/
+│   ├── css/
+│   ├── js/
+│── templates/
+│   ├── index.html
+│   ├── add_contact.html
+│   ├── edit_contact.html
+│── database/
+│── README.md
+```
+
+## 🚀 Installation
+
+1. Clone the repository
 
 ```bash
-
 git clone https://github.com/nareshkumarpunganoor-crypto/Emergency-Contact-Directory.git
+```
 
+2. Navigate to the project folder
+
+```bash
 cd Emergency-Contact-Directory
+```
 
+3. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the application
+
+```bash
+python app.py
+```
+
+5. Open your browser and visit
+
+```
+http://127.0.0.1:5000
+```
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+* Home Page
+* Add Contact Page
+* Contact List
+* Search Feature
+
+## 🎯 Future Enhancements
+
+* User Authentication
+* Cloud Database Integration
+* Emergency SOS Button
+* GPS Location Sharing
+* Email & SMS Notifications
+* Contact Import/Export
+* Mobile App Version
+
+## 👨‍💻 Author
+
+**P. Naresh Kumar**
+
+B.Tech – Artificial Intelligence & Data Science
+
+## 🤝 Contributing
+
+Contributions are welcome. Feel free to fork this repository, create a new branch, and submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you found this project useful, please consider giving it a **Star** on GitHub!
