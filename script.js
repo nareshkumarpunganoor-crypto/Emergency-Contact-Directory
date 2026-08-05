@@ -1,5 +1,5 @@
 // ===== CONFIGURATION =====
-const API_URL = "http://localhost:5000/api/contacts";
+const API_URL = https://emergency-contact-naresh.onrender.com/api/contacts";
 
 // ===== DOM ELEMENTS =====
 const contactForm = document.getElementById("contact-form");
