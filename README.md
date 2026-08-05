@@ -73,7 +73,8 @@ http://127.0.0.1:5000
 
 ## 📸 Screenshots
 
-Add screenshots of:
+Add screenshots of:<img width="1880" height="836" alt="image" src="https://github.com/user-attachments/assets/1240e787-86da-443e-841b-34850c32f76e" />
+
 
 * Home Page
 * Add Contact Page
